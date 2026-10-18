@@ -1,0 +1,14 @@
+{
+  "data": "job_scams train features",
+  "shape_package": [
+    21914,
+    300
+  ],
+  "shape_ours": [
+    21914,
+    300
+  ],
+  "labels_equal": true,
+  "max_abs_diff": 1.4900949696361465e-08,
+  "allclose_atol_1e-6": true
+}

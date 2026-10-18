@@ -1,0 +1,19 @@
+{
+  "data": "job_scams train features",
+  "minority_points": 479,
+  "K": 300,
+  "rows_with_different_neighbour_sets_ball_tree_vs_brute": 2,
+  "rows_with_different_neighbour_order": 225,
+  "differences_are_exact_distance_ties_only": true,
+  "shape_package": [
+    21914,
+    300
+  ],
+  "shape_brute": [
+    21914,
+    300
+  ],
+  "labels_equal": true,
+  "max_abs_diff_vs_package": 1.4900949696361465e-08,
+  "allclose_atol_1e-6": true
+}

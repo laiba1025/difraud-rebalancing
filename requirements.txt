@@ -1,0 +1,19 @@
+# Python 3.11.9. Exact versions used for all results in results/.
+# Experiments
+numpy==2.4.6
+scipy==1.17.1
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.2.0
+imbalanced-learn==0.14.2
+mgs-grf==0.1.0
+networkx==3.6.1
+joblib==1.6.0
+matplotlib==3.11.2
+datasets==5.1.0
+huggingface_hub==1.33.0
+# UNIDECOR download and consolidation scripts (unidecor_repo)
+convokit==4.1.2
+openpyxl==3.1.5
+requests==2.34.2
+click==8.5.0

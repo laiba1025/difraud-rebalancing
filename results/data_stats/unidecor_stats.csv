@@ -1,0 +1,13 @@
+source,n,n_truthful,n_deceptive,pct_deceptive,avg_chars,avg_words,n_empty_text,domain,mode,languages,splits,folds
+OP_SPAM,1600,800,800,50.0,806.4,148.8,0,review,written,EN,none,"1,2,3,4,5"
+TRIAL_DE,121,60,61,50.41,337.2,66.3,0,trial,spoken,EN,none,none
+OPEN_DOMAIN,7168,3584,3584,50.0,43.1,8.2,0,opinion,written,EN,none,none
+CROSS_CULT_DE,1552,775,777,50.06,651.6,117.5,0,opinion,written,"EN,ES_mx,RO",none,none
+DE_REV_2014,236,118,118,50.0,709.4,124.3,0,review,written,EN,none,"0,1,2,3,4,5,6,7,8,9"
+DE_REV_2018,3104,1552,1552,50.0,848.3,153.1,0,review,written,EN,none,"0,1,2,3,4,5,6,7,8,9"
+DIPLOMACY_CONVO,17289,16402,887,5.13,105.1,20.4,0,game,written,EN,"test,train,validation",none
+MU3D,320,160,160,50.0,547.9,106.7,0,interview,spoken,EN,none,none
+MAFIASCUM,9676,7439,2237,23.12,20728.0,3819.9,0,game,written,EN,none,none
+BLUFF,753,251,502,66.67,1140.5,195.2,0,game,spoken,EN,none,none
+BOX_OF_LIES,501,101,400,79.84,44.3,9.0,0,game,verbal,EN,none,none
+POOLED,42320,31242,11078,26.18,4935.9,909.5,0,,,,,

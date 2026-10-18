@@ -1,0 +1,11 @@
+{
+  "n_point_sets": 200,
+  "points_per_set": 5,
+  "dims": [
+    2,
+    300
+  ],
+  "max_point_outside_ball": 6.394884621840902e-14,
+  "n_radius_larger_than_badoiu_clarkson": 0,
+  "n_radius_larger_than_centroid_ball": 0
+}

@@ -1,0 +1,47 @@
+{
+  "difraud_revision": "f8fa04aff083aa22c6878d005b4655e34a4cbd85",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "techniques": [
+    "simplicial",
+    "mgs",
+    "meb",
+    "spe"
+  ],
+  "subsample": null,
+  "reuse_features": true,
+  "features": {
+    "tfidf": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "sublinear_tf": true,
+      "min_df": 2,
+      "max_features": 50000
+    },
+    "svd": {
+      "n_components": 300,
+      "random_state": 42
+    }
+  },
+  "classifiers": {
+    "logreg": "LogisticRegression(random_state=0)",
+    "linear_svm": "LinearSVC(random_state=0)",
+    "xgboost": "XGBClassifier(base_score=None, booster=None, callbacks=None,\n              colsample_bylevel=None, colsample_bynode=None,\n              colsample_bytree=None, device=None, early_stopping_rounds=None,\n              enable_categorical=False, eval_metric=None, feature_types=None,\n              feature_weights=None, gamma=None, grow_policy=None,\n              importance_type=None, interaction_constraints=None,\n              learning_rate=None, max_bin=None, max_cat_threshold=None,\n              max_cat_to_onehot=None, max_delta_step=None, max_depth=None,\n              max_leaves=None, min_child_weight=None, missing=nan,\n              monotone_constraints=None, multi_strategy=None, n_estimators=None,\n              n_jobs=-1, num_parallel_tree=None, ...)"
+  },
+  "evaluation": "train split -> test split; validation unused; positive class = deceptive",
+  "class_counts_after": "oversamplers: resampled training set; spe: first member's training subset (minority + equal-size majority sample)",
+  "python": "3.11.9",
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "mgs-grf": "0.1.0",
+    "networkx": "3.6.1"
+  }
+}
