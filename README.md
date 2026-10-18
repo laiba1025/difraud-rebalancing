@@ -3,7 +3,7 @@
 This project studies the effect of four recent rebalancing techniques on three standard classifiers
 on DiFrauD, per domain and pooled across domains. It also tests cross-dataset generalization
 between DiFrauD and UNIDECOR in both directions, with frozen in-domain models and with models
-retrained on the full source dataset. Every number in `results/` comes from the code in `src/`.
+retrained on the full source dataset.
 
 ## Setup
 
