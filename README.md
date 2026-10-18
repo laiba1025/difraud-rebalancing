@@ -4,7 +4,7 @@ This project tests four recent rebalancing techniques with three classifiers on 
 
 ## Setup
 
-Python 3.11.9. Run from the project root (Windows paths shown; on Linux/macOS use `.venv/bin/python`).
+Python 3.11.9. Run from the project root.
 
 ```
 python -m venv .venv
